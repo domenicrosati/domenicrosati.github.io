@@ -3,9 +3,12 @@ class ImportHTML extends HTMLElement {
     self = super();
     const registerEvent = new CustomEvent("register", {
       detail: {
+        name: this.getAttribute("name"),
         id: this.getAttribute("id")
       },
-      bubbles: true
+      bubbles: true,
+      cancelable: false,
+      composed: true
     });
     const src = this.getAttribute("src");
     fetch(src)
