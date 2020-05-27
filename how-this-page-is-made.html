@@ -1,0 +1,63 @@
+<section id="how-this-page-is-made">
+  <h2>
+    How this page is made
+  </h2>
+  <p>
+    This page is made using a web component called <code>html-import</code> it
+    takes a <code>src</code> attribute as an html snippet to include in the page
+    and renders it instead of the import statement. The result is a semantic
+    html page that takes advantage of modularization and progressive loading.
+  </p>
+
+  <p>
+    The component is quite lightweight:
+  </p>
+  <pre class="prettyprint">
+class ImportHTML extends HTMLElement {
+  constructor() {
+    self = super();
+    const src = this.getAttribute("src");
+    fetch(src)
+      .then(data =&gt; data.text())
+      .then(html =&gt; {
+        this.outerHTML = html;
+      });
+  }
+}
+customElements.define("html-import", ImportHTML);
+    </pre
+  >
+
+  <p>
+    The intention is to create a lightweight modular html experience similar to
+    with a HTML preprocessor or a static site generator. It is a client side
+    site generator of sorts. Inspiration comes from the
+    <a href="https://www.w3.org/TR/html-imports/">HTML imports spec</a>
+    The component will cause network requests for each include so use sparingly.
+  </p>
+  <h3>Example:</h3>
+  <xmp>
+<html lang="en">
+  <body>
+    <script src="/script.js" defer></script>
+    <html-import src="header.html"></html-import>
+    <html-import src="nav.html"></html-import>
+    <main>
+      <html-import src="about.html"></html-import>
+      <html-import src="principles.html"></html-import>
+      <html-import src="how-this-page-is-made.html"></html-import>
+    </main>
+  </body>
+</html>
+  </xmp>
+  <p>
+    The styling of this page uses
+    <a href="https://latex.now.sh/">LaTeX.css</a> because I find LaTeX style
+    aesthetically pleasing.
+  </p>
+  <p>
+    This page is hosted and made in glitch on purpose. It has an integrated environment of tools that make maintaining, sharing, and most of all experimenting with a personal homepage simple.
+    My typical development workflow includes kubernetes clusters, containers, build systems, version control, linters, ect. Though I have productive methods for building distributed fullstack systems: I know something less complex could exist.
+    Using glitch is kind of like me pretending development is easier. 
+  </p>
+</section>
