@@ -8,7 +8,7 @@ My primary research interest is the safety of machine learning systems. At the m
 - Using safety engineering techniques like system scoping, specs, learning constraints, behavioural constraints, etc.
 - Developing technical mechanisms with AI safety regulators and policy people
 - Applying the above to empirical settings that look similar to very dangerous systems (agentic, mislaigned, adversarial, etc.)
-- Finding $$\epsilon$$-second-order stationary points with high loss
+- Finding $$\epsilon$$-second order stationary points with high loss
 
 If you want to work on these problems together let me know: domenic (dot) rosati (at) dal (dot) ca. 
 
