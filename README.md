@@ -25,6 +25,7 @@ I am also interested in the following things that you can talk to me about:
 - Linguistics
 - Dath Ilan
 - Djent
+- Power Lifting
 
 ## Teaching & Learning
 
