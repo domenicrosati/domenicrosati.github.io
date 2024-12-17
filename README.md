@@ -1,6 +1,6 @@
 ## About Me
 
-I'm a computer science PhD at Dalhousie University.
+I'm a computer science PhD student at Dalhousie University supervised by Hassan Sajjad and Frank Rudzicz.
 
 My primary research interest is the safety of machine learning systems. At the moment, my main work is:
 - Formulating safety as a learning theory problem
