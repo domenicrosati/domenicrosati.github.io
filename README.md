@@ -8,6 +8,7 @@ My primary research interest is the safety of machine learning systems. At the m
 - Using safety engineering techniques like system scoping, specs, learning constraints, behavioural constraints, etc.
 - Developing technical mechanisms with AI safety regulators and policy people
 - Applying the above to empirical settings that look similar to very dangerous systems (agentic, mislaigned, adversarial, etc.)
+- Finding $$\epsilon$$-second-order stationary points with high loss
 
 If you want to work on these problems together let me know: domenic (dot) rosati (at) dal (dot) ca. 
 
@@ -30,3 +31,5 @@ I am also interested in the following things that you can talk to me about:
 There is nothing like helping someone understand the Church–Turing thesis for the first time.
 
 I like teaching machine learning and CS (I taught CS in High school for four years). Here is [a collection](https://github.com/domenicrosati/tutorials) of course notes and lectures I try to keep up to date.
+
+Courses I'd like to teach AI Safety & Alignment, ML/DL/Statistical Learning Theory, History of Artificial Intelligence (or just history of modern mathematics), Computational Linguistics, Research Methods & Experimental Design, Optimization
