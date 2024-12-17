@@ -24,6 +24,7 @@ I am also interested in the following things that you can talk to me about:
 - Applied Math
 - Linguistics
 - Dath Ilan
+- Djent
 
 ## Teaching & Learning
 
